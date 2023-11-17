@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+#myphoto {
+  width: 20px;
+  height: 20px;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: #e3e6f3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #088178;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+/*--- main -----*/
+.cart-page{
+ margin:  80px 80px auto 80px;
+  
+}
+table{
+  width: 100% ;
+  border-collapse: collapse;
+}
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+th{
+  text-align: left;
+  padding: 5px;color:#1a1a1a;
+  background:  #e3e6f3;
+  font-weight: normal;
+}
+td{
+  padding: 10px 5px ;
+
+}
+
+td input{
+  width: 40px;
+  height: 30px;
+  pad: 5px;
+  
+}
+td a{
+  color:#e3e6f3;
+  font-size: 12px;
+}
+td img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table{
+  border-top: 3px solid #e3e6f3;
+  width: 100%;
+  max-width: 400px;
+  margin: auto 80px 80px auto ;
+}
+td:last-child{
+  text-align: right;
+}
+th:last-child{
+  text-align: right;
+}
+/*
+.cart-info p{
+  display: none;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*-----footer-----*/
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background:  #8994c6;
+  color: #fff;
+  padding:0 0 0px;
+  border-top-left-radius:125px ;
+  font-size: 13px;
+  line-height: 30px;
+}
+ 
